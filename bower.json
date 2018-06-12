@@ -1,0 +1,25 @@
+{
+  "name": "ikagaka.shell.js",
+  "version": "4.3.5",
+  "description": "Ukagaka Shell Renderer for Web Browser",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "PNG.ts": "legokichi/PNG.ts",
+    "duxca.serverworker.js": "legokichi/ServerWorker",
+    "bluebird": "*",
+    "qunit": "*",
+    "narloader": "legokichi/NarLoader#issue12",
+    "qunit-tap": "*",
+    "empower": "*",
+    "power-assert-formatter": "*",
+    "jszip": "Stuk/jszip#v2.x"
+  },
+  "main": "./dist/Shell.js",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "nar"
+  ]
+}
